@@ -12,7 +12,7 @@
         }
         div.cover {
             background: url(RESOURCES/RESOURCES/cover_overlay.png) no-repeat center/100% 100%,url(RESOURCES/RESOURCES/cover.jpg) no-repeat center/cover;
-            
+            position: relative;
             height: 360px;
         }
         img.cover-profile {
@@ -32,6 +32,21 @@
             color: lightgray;
             text-align: center;
         }
+        div.cover-contact {
+            background-color: #FF000080;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-left: 4px solid #D89584;
+            padding-left: 10px;
+        }
+        div.cover-contact p {
+            text-align: left;
+        }
+        div.cover-contact a {
+            color: white;
+            font-size: 14px;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +54,10 @@
         <img class="cover-profile" src="RESOURCES/RESOURCES/reda.jpg">
         <h1>Reda El Masdouri</h1>
         <p>Développeur junior</p>
+        <div class="cover-contact">
+            <p><a href="mailto:reda.elmasdouri@gmail.com?subject=Contact%20depuis%20ma%20page%20personelle">reda.elmasdouri@gmail.com</a></p>
+            <p><a href="tel:+33698510329">06 98 51 03 29</a></p>
+        </div>
     </div>
 </body>
 </html>
