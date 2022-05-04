@@ -5,11 +5,12 @@
 body {
     margin: 0px;
     font-family: Arial;
+    line-height: 1.4;
 }
 div.cover {
     background: url(RESOURCES/RESOURCES/cover_overlay.png) no-repeat center/100% 100%,url(RESOURCES/RESOURCES/cover.jpg) no-repeat center/cover;
     position: relative;
-    height: 360px;
+    height: 370px;
 }
 img.cover-profile {
     height: 200px;
@@ -75,7 +76,7 @@ a.contact-me:hover {
 div.section-grise1 {
     background: url(RESOURCES/RESOURCES/triangle2white.svg) no-repeat center bottom/100%;
     background-color: var(--color2);
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 div.section-grise2 {
     background: url(RESOURCES/RESOURCES/triangle1white.svg) no-repeat center top/100%;
@@ -86,4 +87,24 @@ h2 {
     text-align: center;
     font-size: 34px;
     margin-top: 0px;
+}
+div.separateur {
+    
+    /* background-color: black; */
+    height: 1px;
+    width: 150px;
+    background-color: #979797;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.section-grise1 p {
+    display: inline-block;
+    max-width: 500px;
+    font-size: 22px;
+    text-align: center;
+    color: #656565;
+    
+}
+div.description {
+    text-align: center;
 }
