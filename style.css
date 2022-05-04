@@ -108,3 +108,16 @@ div.section-grise1 p {
 div.description {
     text-align: center;
 }
+.col40 {
+    max-width: auto;
+    height: 300px;
+    border-top-right-radius: 50px;
+    margin-left: 100px;
+    /* position: relative; */
+}
+.col60 {
+    width: 60%;
+}
+.float-right {
+    float: right;
+}
