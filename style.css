@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 :root{
     --color1: #D89584;
     --color2: #f4f4f4; 
@@ -72,6 +75,7 @@ a.contact-me:hover {
     padding-right: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
+    overflow: auto;
 }
 div.section-grise1 {
     background: url(RESOURCES/RESOURCES/triangle2white.svg) no-repeat center bottom/100%;
@@ -109,10 +113,11 @@ div.description {
     text-align: center;
 }
 .col40 {
-    max-width: auto;
-    height: 300px;
+    
+    width: 20%;
+    height: auto;
     border-top-right-radius: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     /* position: relative; */
 }
 .col60 {
@@ -120,4 +125,13 @@ div.description {
 }
 .float-right {
     float: right;
+}
+div.texte-avec-ligne-verticale {
+    border-left: 4px solid var(--color1);   
+    padding-left: 8px;
+    height: 50px;
+    display: inline-block;
+}
+div.texte-avec-ligne-verticale p {
+    margin-top: 0px;
 }
