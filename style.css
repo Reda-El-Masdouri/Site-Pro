@@ -86,6 +86,7 @@ div.section-grise2 {
     background: url(RESOURCES/RESOURCES/triangle1white.svg) no-repeat center top/100%;
     background-color: var(--color2);
     padding-top: 80px;
+    
 }
 h2 {
     text-align: center;
@@ -134,4 +135,13 @@ div.texte-avec-ligne-verticale {
 }
 div.texte-avec-ligne-verticale p {
     margin-top: 0px;
+}
+div.barre-verticale {
+    height: 50px;
+    width: 4px;
+    background-color: var(--color1);
+    margin-right: 8px;
+}
+.col-portfolio {
+    width: 45%;
 }
