@@ -145,3 +145,23 @@ div.barre-verticale {
 .col-portfolio {
     width: 45%;
 }
+div.frame {
+    border: 1px solid black;
+    margin: 30px 50px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow:  0 0 2em black;
+}
+p.frame-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+div.frame img {
+    height: 200px;
+    border-radius: 100%;  
+}
+div.frame table {
+    width: 100%;
+}
