@@ -165,3 +165,23 @@ div.frame img {
 div.frame table {
     width: 100%;
 }
+
+/* PORTFOLIO */
+div.portfolio-header {
+    height: 90px;
+}
+p.portfolio-header-name {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+div.portfolio-texte-avec-ligne-verticale {
+    height: 40px;
+    margin-left: 10px; 
+    margin-top: 12px;
+}
+div.portfolio-cover {
+    background: url(RESOURCES/RESOURCES/header.jpg) no-repeat center/cover;
+    position: relative;
+    height: 370px;
+}
