@@ -185,3 +185,24 @@ div.portfolio-cover {
     position: relative;
     height: 370px;
 }
+h1.portfolio {
+    font-size: 46px;
+    font-weight: bold;
+    color: black;
+    line-height: 1;
+    padding-top: 10px;
+}
+h2.portfolio {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+a.portfolio-back {
+    color: var(--color1);
+    margin-left: -15px;
+    font-size: 14px;
+}
+img.portfolio-img {
+    width: 70%;
+    max-width: 550px;
+}
