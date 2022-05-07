@@ -10,6 +10,11 @@ body {
     font-family: Arial;
     line-height: 1.4;
 }
+iframe {
+    width: 100%;
+    border: none;
+    height: 400px;
+}
 div.cover {
     background: url(RESOURCES/RESOURCES/cover_overlay.png) no-repeat center/100% 100%,url(RESOURCES/RESOURCES/cover.jpg) no-repeat center/cover;
     position: relative;
